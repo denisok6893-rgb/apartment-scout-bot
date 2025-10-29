@@ -1,16 +1,23 @@
 {
-  "name": "apartment-scout-bot",
+  "name": "apartment-bot",
   "version": "1.0.0",
-  "description": "Бот для поиска квартир в аренду",
+  "description": "Telegram bot for apartment search in Simferopol",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js",
     "dev": "node bot.js"
   },
   "dependencies": {
-    "axios": "^1.13.1",
-    "cheerio": "^1.1.2",
-    "dotenv": "^17.2.3",
-    "node-telegram-bot-api": "^0.64.0"
-  }
+    "node-telegram-bot-api": "^0.64.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "keywords": [
+    "telegram",
+    "bot", 
+    "apartment",
+    "search"
+  ],
+  "author": "denisok6893",
+  "license": "MIT"
 }
